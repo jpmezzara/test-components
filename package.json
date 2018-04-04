@@ -1,0 +1,23 @@
+{
+  "name": "test-components",
+  "version": "1.0.0",
+  "description": "Pruebas con componentes AngularJS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpmezzara/test-components.git"
+  },
+  "author": "Juan Pablo Ramírez Mendoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpmezzara/test-components/issues"
+  },
+  "homepage": "https://github.com/jpmezzara/test-components#readme",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.15",
+    "angular": "^1.6.9",
+    "bootstrap": "^3.3.7"
+  }
+}
