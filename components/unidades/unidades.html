@@ -1,2 +1,19 @@
 <h3>Unidades</h3>
-<p>Muestra una lista de todas las unidades activas</p>
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Marca</th>
+        <th>SubMarca</th>
+        <th>Modelo</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="unidad in uCtrl.unidades">
+        <td>{{unidad.id}}</td>
+        <td>{{unidad.marca}}</td>
+        <td>{{unidad.subMarca}}</td>
+        <td>{{unidad.modelo}}</td>
+    </tr>
+    </tbody>
+</table>

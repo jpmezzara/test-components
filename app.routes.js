@@ -1,9 +1,9 @@
 (function () {
     'use-strict';
 
-    var app = angular.module('app');
+    var module = angular.module('app');
 
-    app.config(function ($stateProvider) {
+    module.config(function ($stateProvider) {
         var helloState = {
             name: 'hello',
             url: '/hello',
